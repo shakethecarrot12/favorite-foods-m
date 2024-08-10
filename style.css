@@ -18,13 +18,15 @@ h1,p{
   margin: 0 auto;
   align-items: center;
   gap:30px;
-  
-  
 }
 /*layout*/
 
+
+
+
 /*header*/
 .header{
+  
   height: 160px;
 }
 
@@ -61,9 +63,11 @@ h1,p{
 }
 
 .contents-img{
+  border-radius: 12px 12px 0 0;
   width: 300px;
   height: 200px;
 }
+
 .contents-img-text{
   margin-top: -57px;
   margin-bottom:0;
@@ -145,6 +149,7 @@ h1,p{
 }
 
 /*main*/
+
 /*footer*/
 .footer{
   background-color: #d9d9d9;
@@ -157,3 +162,18 @@ h1,p{
   margin:30px 0 39px 0;
 }
 /*footer*/
+
+
+@media  (max-width: 90000px){
+  .l_wrapper{
+    flex-direction: column;
+    gap: 0;
+  }
+
+.header-img{
+  margin:0;
+}
+
+
+
+}
